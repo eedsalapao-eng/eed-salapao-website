@@ -1,0 +1,23 @@
+# EED Salapao Website v1.0 — GitHub Ready
+
+ไฟล์ชุดนี้พร้อมอัปโหลดขึ้น GitHub และ Deploy ด้วย Cloudflare Pages
+
+## ไฟล์ที่ต้องเห็นหน้าแรกของ Repository
+- index.html
+- styles.css
+- script.js
+- config.js
+- robots.txt
+- sitemap.xml
+- 404.html
+- assets/
+
+## วิธีอัปโหลด
+1. แตก ZIP นี้ก่อน
+2. เปิดโฟลเดอร์ที่แตกแล้ว
+3. เลือกไฟล์และโฟลเดอร์ทั้งหมดด้านใน
+4. GitHub: Add file > Upload files
+5. ลากทั้งหมดขึ้นหน้าอัปโหลด
+6. กด Commit changes
+
+อย่าอัปโหลด ZIP ทั้งก้อน และอย่าให้ index.html อยู่ในโฟลเดอร์ซ้อน
