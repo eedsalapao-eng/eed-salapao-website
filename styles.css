@@ -109,3 +109,23 @@ button,input,select,textarea{font:inherit}
   .mobile-bar{position:fixed;z-index:90;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(3,1fr);background:#fff;border-top:1px solid #ead5b5}
   .mobile-bar a{text-align:center;padding:12px 6px;font-weight:900;color:var(--red-dark)}
 }
+
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:42px;align-items:center}
+.about p{color:var(--muted);font-size:1.08rem}
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}
+.stats-grid div{background:#fff;border:1px solid #f0d8b5;border-radius:18px;padding:18px;text-align:center}
+.stats-grid strong,.stats-grid span{display:block}
+.stats-grid strong{font-size:1.8rem;color:var(--red)}
+.about-card{background:#fff;border-radius:28px;overflow:hidden;box-shadow:var(--shadow)}
+.about-card img{width:100%;height:360px;object-fit:cover}
+.about-card div{padding:20px}
+.about-card b,.about-card span{display:block}
+.about-card span{color:var(--muted)}
+.reviews{background:#fff1d6}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.review-grid article{background:#fff;border-radius:22px;padding:24px;box-shadow:var(--shadow)}
+.stars{color:#f1a500;font-size:1.2rem}
+.review-grid p{font-size:1.06rem}
+.review-grid b{color:var(--red-dark)}
+@media (max-width:900px){.about-grid{grid-template-columns:1fr}.review-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.stats-grid,.review-grid{grid-template-columns:1fr}}
