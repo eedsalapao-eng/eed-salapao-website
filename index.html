@@ -6,10 +6,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css"></head><body>
 <header><div class="wrap nav"><a class="brand" href="#home"><img src="mascot.png"><span><b>อี๊ด ซาลาเปา</b><small>EED SALAPAO • SINCE 2001</small></span></a>
-<button id="menuBtn">☰</button><nav id="nav"><a href="#home">หน้าแรก</a><a href="#menu">เมนู</a><a href="#catering">จัดเบรก</a><a href="#gallery">ผลงาน</a><a href="#about">เกี่ยวกับเรา</a><a href="#contact">ติดต่อ</a></nav><a class="call" href="tel:0928837666">โทรสั่งซื้อ</a></div></header>
+<button id="menuBtn">☰</button><nav id="nav"><a href="#home">หน้าแรก</a><a href="#menu">เมนู</a><a href="#catering">จัดเบรก</a><a href="#gallery">ผลงาน</a><a href="#about">เกี่ยวกับเรา</a><a href="#reviews">รีวิว</a><a href="#contact">ติดต่อ</a></nav><a class="call" href="tel:0928837666">โทรสั่งซื้อ</a></div></header>
 <main>
 <section id="home" class="slider">
-<article class="slide active"><div class="wrap hero"><div><span class="eyebrow">สดใหม่ทุกวัน</span><h1>ซาลาเปานุ่ม หอม<br>อร่อยแบบเนินหอม</h1><p>สูตรของร้านที่เติบโตมากับชุมชน ตั้งแต่ปี 2001</p><a class="btn" href="#menu">ดูเมนู</a></div><div class="mock">ภาพ Hero จริง<br><small>ซาลาเปาร้อน มีไอน้ำ แนวนอน</small></div></div></article>
+<article class="slide active"><div class="wrap hero"><div><span class="eyebrow">สดใหม่ทุกวัน</span><h1>ซาลาเปานุ่ม สดใหม่<br>พร้อมส่งความสุขทุกงาน</h1><p>ซาลาเปาและขนมจีบคุณภาพดี พร้อมบริการจัดเบรกสำหรับงานประชุม สัมมนา และงานสำคัญ</p><a class="btn" href="#menu">ดูเมนู</a></div><div class="mock">ภาพ Hero จริง<br><small>ซาลาเปาร้อน มีไอน้ำ แนวนอน</small></div></div></article>
 <article class="slide"><div class="wrap hero"><div><span class="eyebrow">Event & Catering</span><h2>จัดเบรกง่าย<br>บอกงบกับจำนวนก็พอ</h2><p>ประชุม อบรม สัมมนา งานบุญ และลูกค้าองค์กร</p><a class="btn" href="#catering">ดูแพ็กเกจ</a></div><img src="event-booth.jpg"></div></article>
 <article class="slide"><div class="wrap hero"><div><span class="eyebrow">EED SALAPAO</span><h2>แบรนด์ท้องถิ่น<br>ที่กำลังเติบโตด้วยระบบ</h2><p>พัฒนาสินค้า บริการ เว็บไซต์ และ EED Salapao OS ไปพร้อมกัน</p><a class="btn" href="#about">เรื่องของเรา</a></div><img class="contain" src="mascot.png"></div></article>
 <button class="prev">‹</button><button class="next">›</button><div class="dots"></div></section>
@@ -20,11 +20,50 @@
 <div class="tools"><div id="filters"><button class="active" data-f="all">ทั้งหมด</button><button data-f="bun">ซาลาเปา</button><button data-f="dim">ขนมจีบ</button><button data-f="break">ชุดจัดเบรก</button><button data-f="drink">เครื่องดื่ม</button></div><input id="search" placeholder="ค้นหาเมนู"></div>
 <div id="products" class="products"></div></div></section>
 
+
+<section class="section credibility">
+  <div class="container">
+    <div class="section-head compact">
+      <div><span class="eyebrow">ความน่าเชื่อถือ</span><h2>ดูแลทุกออร์เดอร์เหมือนงานสำคัญ</h2></div>
+      <p>ตั้งแต่ลูกค้าหน้าร้านจนถึงหน่วยงานและงาน Event เราให้ความสำคัญกับความเรียบร้อย ความตรงเวลา และคุณภาพของสินค้า</p>
+    </div>
+    <div class="trust-cards">
+      <article><strong>20+</strong><span>ปีแห่งประสบการณ์</span></article>
+      <article><strong>35+</strong><span>บาท/ชุด งานจัดเบรก</span></article>
+      <article><strong>2</strong><span>เบอร์ติดต่อพร้อมรับงาน</span></article>
+      <article><strong>100%</strong><span>ตั้งใจดูแลทุกงาน</span></article>
+    </div>
+    <div class="client-strip">
+      <span>ลูกค้าที่เราให้บริการ</span>
+      <div class="client-logos">
+        <div>หน่วยงานราชการ</div>
+        <div>บริษัทและโรงงาน</div>
+        <div>โรงเรียนและชุมชน</div>
+        <div>งานประชุมและสัมมนา</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="catering" class="section catering"><div class="wrap two"><div><span class="eyebrow light">รับจัดเบรก</span><h2>แพ็กเกจที่ปรับได้<br>ตามงบและรูปแบบงาน</h2><p>เหมาะกับหน่วยงานราชการ บริษัท โรงเรียน และชุมชน</p><a class="btn white" href="#contact">ให้เราช่วยจัดชุด</a></div><div class="packs"><article><strong>35</strong><span><b>ชุดเริ่มต้น</b><small>ของว่าง + น้ำดื่ม</small></span></article><article class="featured"><strong>40</strong><span><b>ชุดยอดนิยม</b><small>ซาลาเปา + ขนมจีบ + น้ำ</small></span></article><article><strong>50+</strong><span><b>ชุดพรีเมียม</b><small>ปรับรายการและบรรจุภัณฑ์ได้</small></span></article></div></div></section>
 
 <section id="gallery" class="section"><div class="wrap"><span class="eyebrow">ผลงานจริง</span><h2>ทุกงานคือความไว้ใจ</h2><div class="gallery"><figure><img src="event-booth.jpg"><figcaption>งาน Event และออกบูธ</figcaption></figure><figure><img src="event-delivery.jpg"><figcaption>เตรียมและขนส่งเป็นระบบ</figcaption></figure><figure><img src="event-team.jpg"><figcaption>ทีมงานพร้อมดูแล</figcaption></figure></div></div></section>
 
 <section id="about" class="section about"><div class="wrap two"><div class="year">2001</div><div><span class="eyebrow">เรื่องของเรา</span><h2>จากร้านซาลาเปาเนินหอม<br>สู่แบรนด์ที่พร้อมเติบโต</h2><p>อี๊ด ซาลาเปา เริ่มจากความตั้งใจทำอาหารคุณภาพดีในราคาที่เข้าถึงได้ และเติบโตจากลูกค้าหน้าร้านสู่งานจัดเบรกและลูกค้าองค์กร</p></div></div></section>
+
+
+<section id="reviews" class="section reviews">
+  <div class="container">
+    <div class="section-head compact">
+      <div><span class="eyebrow">เสียงจากลูกค้า</span><h2>ความประทับใจที่ทำให้เราพัฒนาต่อ</h2></div>
+    </div>
+    <div class="review-grid">
+      <article><div class="stars">★★★★★</div><p>“จัดชุดเรียบร้อย ส่งตรงเวลา เหมาะกับงานประชุมมากค่ะ”</p><strong>ลูกค้างานจัดเบรก</strong></article>
+      <article><div class="stars">★★★★★</div><p>“ซาลาเปานุ่ม ขนมจีบอร่อย และบริการเป็นกันเอง”</p><strong>ลูกค้าประจำเนินหอม</strong></article>
+      <article><div class="stars">★★★★★</div><p>“สั่งจำนวนมากก็จัดเตรียมได้ครบ และสื่อสารง่าย”</p><strong>ลูกค้าองค์กร</strong></article>
+    </div>
+  </div>
+</section>
 
 <section id="contact" class="section"><div class="wrap two"><div><span class="eyebrow">ติดต่อเรา</span><h2>บอกวัน จำนวน และงบ<br>เราช่วยวางชุดให้ได้</h2><p>เนินหอม ทางขึ้นเขาใหญ่ ติดมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ วิทยาเขตปราจีนบุรี</p><a class="btn" href="tel:0928837666">โทร 092-883-7666</a></div>
 <form id="quote"><h3>ขอใบเสนอราคาจัดเบรก</h3><label>ชื่อผู้ติดต่อ<input name="name" required></label><label>เบอร์โทร<input name="phone" required></label><div class="formrow"><label>วันที่<input type="date" name="date"></label><label>จำนวนชุด<input type="number" name="qty" value="25"></label></div><label>งบต่อชุด<select name="budget"><option>35 บาท</option><option selected>40 บาท</option><option>50 บาท</option></select></label><label>รายละเอียด<textarea name="details"></textarea></label><button class="btn">สร้างข้อความส่งให้ร้าน</button><p id="status"></p></form></div></section>
